@@ -116,4 +116,4 @@ jobs:
         working-directory: packages/github-user-contribution-service
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-#run
+
