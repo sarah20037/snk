@@ -90,6 +90,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
   deploy-ghpages:
+      environment:
+      name: github-pages
+
     runs-on: ubuntu-latest
     permissions:
       pages: write
